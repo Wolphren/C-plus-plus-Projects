@@ -1,8 +1,8 @@
 # CSE 310 - Sprint Time Log
 
-Name:
+Name: Wade Davenport
 
-Sprint #:
+Sprint #: 1
 
 ## Instructions
 
@@ -15,7 +15,7 @@ For the Category column, record one of the following:
 
 The expected minimum amount of time each Sprint for each category is as follows:
 
-|Categroy                       |Total Time (Hours:Minutes)|
+|Category                       |Total Time (Hours:Minutes)|
 |-------------------------------|:------------------------:|
 |IM - Individual Module         |          10:00           |
 |TP - Team Project              |           4:00           |
@@ -27,6 +27,16 @@ The expected minimum amount of time each Sprint for each category is as follows:
 |Date      |Start Time|Category|Description                                 |Total Minutes|
 |----------|----------|:------:|--------------------------------------------|:-----------:|
 | 4/28/2025|  2:00    |   MTG  |               Planning Meeting             |      60     |
+| 4/28/2025|  4:20    |   IM   |               Learning C++                 |      60     |
+|          |          |        |                                            |             |
+|          |          |        |                                            |             |
+|          |          |        |                                            |             |
+|          |          |        |                                            |             |
+|          |          |        |                                            |             |
+|          |          |        |                                            |             |
+|          |          |        |                                            |             |
+|          |          |        |                                            |             |
+|          |          |        |                                            |             |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
@@ -37,7 +47,7 @@ _Note: Add more rows as needed._
 
 ## Sprint Totals
 
-|Categroy                       |Total Time (Hours:Minutes)|
+|Category                       |Total Time (Hours:Minutes)|
 |-------------------------------|:------------------------:|
 |IM - Individual Module         |                          |
 |TP - Team Project              |                          |
