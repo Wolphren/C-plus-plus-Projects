@@ -10,8 +10,8 @@
 
 Steps to build and/or run the software:
 
-1. Install Visual Studio Community 2022 Version 17.13.6
-2. C/C++ Extension pack version 1.3.1
+1. 
+2. 
 3.
 
 Instructions for using the software:
@@ -24,8 +24,8 @@ Instructions for using the software:
 
 To recreate the development environment, you need the following software and/or libraries with the specified versions:
 
-* First thing here
-*
+* Install Visual Studio Community 2022 Version 17.13.6
+* C/C++ Extension pack version 1.3.1
 *
 
 ## Useful Websites to Learn More

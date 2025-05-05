@@ -26,10 +26,10 @@ The expected minimum amount of time each Sprint for each category is as follows:
 
 |Date      |Start Time|Category|Description                                 |Total Minutes|
 |----------|----------|:------:|--------------------------------------------|:-----------:|
-| 4/28/2025|  2:00    |   MTG  |               Planning Meeting             |      60     |
-| 4/28/2025|  4:20    |   IM   |               Learning C++                 |      60     |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
+|4/28/2025 |  2:00    |   MTG  |Planning Meeting                            |      60     |
+|4/28/2025 |  4:20    |   IM   |Learning C++                                |      60     |
+|4/30/2025 |  2:00    |   TP   |Setting Up GitHub Project                   |      60     |
+|5/1/2025  |  3:30    |   IM   |                                            |   1:45/105  |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
