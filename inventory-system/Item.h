@@ -16,6 +16,8 @@ public:
     string getName() const;
     void setQuantity(int q);
     int getQuantity() const;
+    void setPrice(double p);
+    double getPrice() const;
     void display() const;
 
 };

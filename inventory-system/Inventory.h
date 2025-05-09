@@ -13,6 +13,7 @@ public:
     void addItem();
     void displayItems() const;
     void updateQuantity();
+    void updatePrice();
     void searchItem() const;
 };
 

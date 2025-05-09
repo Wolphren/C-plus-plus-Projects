@@ -9,7 +9,8 @@ void Inventory::addItem()
     int quantity;
 
     cout << "Enter item name: ";
-    cin >> name;
+    cin.ignore(); // Clear the newline character from the input buffer
+    getline(cin, name);
     cout << "Enter price: ";
     cin >> price;
     cout << "Enter quantity: ";
@@ -41,7 +42,8 @@ void Inventory::updateQuantity()
     int newQuantity;
 
     cout << "Enter item name to update: ";
-    cin >> name;
+    cin.ignore();
+    getline(cin, name);
 
     for (auto& item : items) 
     {
@@ -58,11 +60,36 @@ void Inventory::updateQuantity()
     cout << "Item not found.\n";
 }
 
+void Inventory::updatePrice()
+{
+    string name;
+    double newPrice;
+
+    cout << "Enter item name to update: ";
+    cin.ignore();
+    getline(cin, name);
+
+    for (auto& item : items) 
+    {
+        if (item.getName() == name)
+        {
+            cout << "Enter new price: ";
+            cin >> newPrice;
+            item.setPrice(newPrice);
+            cout << "Price updated.\n";
+            return;
+        }
+    }
+
+    cout << "Item not found.\n";
+}
+
 void Inventory::searchItem() const
 {
     string name;
     cout << "Enter item name to search: ";
-    cin >> name;
+    cin.ignore();
+    getline(cin, name);
 
     for (const auto& item : items) 
     {

@@ -14,6 +14,21 @@ void Item::setQuantity(int q)
     quantity = q;
 }
 
+void Item::setPrice(double p) 
+{
+    price = p;
+}
+
+int Item::getQuantity() const 
+{
+    return quantity;
+}
+
+double Item::getPrice() const 
+{
+    return price;
+}
+
 void Item::display() const 
 {
     cout << "Name: " << name << ", Price: $" << price << ", Quantity: " << quantity << endl;
