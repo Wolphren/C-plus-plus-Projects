@@ -5,6 +5,11 @@ using namespace std;
 /*This can be used to create multiline
 comments*/
 
+void myFunction() 
+{
+    cout << "I just got executed!";
+}
+
 int main() {
     cout << "Hello World!" <<"\n\n"; // prints Hello World! (\n creates a new line)
     cout << "I am Learning C++" << endl; // endl ends the line and starts a new one
@@ -226,5 +231,85 @@ int main() {
         cout << i << "\n";
     }
 
+    string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
+    cars[0] = "Opel";
+    cout << cars[0] << endl;
+
+    int myNumbers1[5] = {10, 20, 30, 40, 50};
+    cout << sizeof(myNumbers1) << endl;
+
+    string letters[2][4] = { // multidimensional array
+        { "A", "B", "C", "D" },
+        { "E", "F", "G", "H" }
+      };
+      
+    cout << letters[0][2] << endl;  // Outputs "C"
+    
+    // Create a structure variable called myStructure structures can group related variables
+    struct {
+        string brand;
+        string model;
+        int year;
+      } myCar1, myCar2; // We can add variables by separating them with a comma here
+      
+      // Put data into the first structure
+      myCar1.brand = "BMW";
+      myCar1.model = "X5";
+      myCar1.year = 1999;
+      
+      // Put data into the second structure
+      myCar2.brand = "Ford";
+      myCar2.model = "Mustang";
+      myCar2.year = 1969;
+      
+      // Print the structure members
+      cout << myCar1.brand << " " << myCar1.model << " " << myCar1.year << "\n";
+      cout << myCar2.brand << " " << myCar2.model << " " << myCar2.year << "\n";
+
+// // Declare a structure named "car"
+// struct car {
+//     string brand;
+//     string model;
+//     int year;
+//   };
+//     // Create a car structure and store it in myCar1;
+//     car myCar1;
+//     myCar1.brand = "BMW";
+//     myCar1.model = "X5";
+//     myCar1.year = 1999;
+  
+//     // Create another car structure and store it in myCar2;
+//     car myCar2;
+//     myCar2.brand = "Ford";
+//     myCar2.model = "Mustang";
+//     myCar2.year = 1969;
+   
+//     // Print the structure members
+//     cout << myCar1.brand << " " << myCar1.model << " " << myCar1.year << "\n";
+//     cout << myCar2.brand << " " << myCar2.model << " " << myCar2.year << "\n";
+
+    //enums are used to give names to constants which makes the code easier to read and maintain
+    enum Level {
+        LOW, // 1
+        MEDIUM, // 2
+        HIGH // 3
+    };
+    enum Level myVar = MEDIUM;
+    cout << myVar << endl;
+
+    switch (myVar) {
+        case 1:
+          cout << "Low Level";
+          break;
+        case 2:
+          cout << "Medium level";
+          break;
+        case 3:
+          cout << "High level";
+          break;
+    }
+
+    myFunction();
+    
     return 0;
 }

@@ -29,14 +29,14 @@ The expected minimum amount of time each Sprint for each category is as follows:
 |4/28/2025 |  2:00    |   MTG  |Planning Meeting                            |      60     |
 |4/28/2025 |  4:20    |   IM   |Learning C++                                |      60     |
 |4/30/2025 |  2:00    |   TP   |Setting Up GitHub Project                   |      60     |
-|5/1/2025  |  3:30    |   IM   |                                            |   1:45/105  |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
+|5/1/2025  |  3:30    |   IM   |C++ Practice                                |   1:45/105  |
+|5/2/2025  |  2:00    |   MTG  |Stand Up Meeting                            |      60     |
+|5/5/2025  |  2:00    |   TP   |Planed project architecture                 |      60     |
+|5/7/2025  |  11:45   |   TP   |Flask Prototype                             |   2:00/120  |
+|5/7/2025  |  2:00    |   MTG  |Team Review Meeting                         |      60     |
+|5/7/2025  |  3:10    |   IM   |C++ Practice                                |      50     |
+|5/8/2025  |  9:00    |   IM   |Initial system Prototype                    |   2:30/150  |
+|5/9/2025  |  10:30   |   IM   |Testing on my school Laptop/ improvements   |   4:00/240  |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
@@ -49,7 +49,7 @@ _Note: Add more rows as needed._
 
 |Category                       |Total Time (Hours:Minutes)|
 |-------------------------------|:------------------------:|
-|IM - Individual Module         |                          |
-|TP - Team Project              |                          |
-|MTG - Class Meetings           |                          |
-|**TOTAL**                      |                          |
+|IM - Individual Module         |6:05                      |
+|TP - Team Project              |4:00                      |
+|MTG - Class Meetings           |3:00                      |
+|**TOTAL**                      |10:35                     |
