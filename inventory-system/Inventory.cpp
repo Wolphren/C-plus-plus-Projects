@@ -9,7 +9,7 @@ void Inventory::addItem()
     int quantity;
 
     cout << "Enter item name: ";
-    cin.ignore(); // Clear the newline character from the input buffer
+    cin.ignore();
     getline(cin, name);
     cout << "Enter price: ";
     cin >> price;
